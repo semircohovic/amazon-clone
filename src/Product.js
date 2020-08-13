@@ -1,9 +1,16 @@
 import React from 'react'
 
-function Product() {
+function Product({ id, title, image, price, rating }) {
     return (
-        <div>
+        <div className="product">
+            <p>{title}</p>
+            <p className="product__price">
+                <small>e</small>
+                <strong>{price}</strong>
+            </p>
+            <div className="product__rating">
 
+            </div>
         </div>
     )
 }
