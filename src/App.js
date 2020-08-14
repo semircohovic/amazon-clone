@@ -9,9 +9,9 @@ import { useStateValue } from './StateProvider';
 import { useEffect } from 'react';
 import { auth } from "./firebase";
 function App() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue();
   useEffect(() => {
-    auth.onAuthStateChanged((authUser) => {
+    const unsubscribe = auth.onAuthStateChanged((authUser) => {
       if (authUser) {
         dispatch({
           type: "SET_USER",
@@ -24,8 +24,12 @@ function App() {
         });
       }
     });
-  }, []);
+    return () => {
+      unsubscribe();
+    }
 
+  }, []);
+  // console.log(user);
   return (
     <Router>
       <div className="App">
