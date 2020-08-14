@@ -8,6 +8,8 @@ import { useStateValue } from './StateProvider';
 function Header() {
     const [{ basket }] = useStateValue();
 
+    console.log(basket);
+
     return <nav className="header">
         <Link to="/">
             <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" />

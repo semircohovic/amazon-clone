@@ -15,7 +15,7 @@ function Home() {
                     alt="slika"
                 />
                 <Product
-                    id="12321341"
+                    id="12321342"
                     title="AMD Ryzen 5 3600 6-Core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler"
                     price={130.28}
                     rating={5}
@@ -25,7 +25,7 @@ function Home() {
             </div>
             <div className="home__row">
                 <Product
-                    id="12321341"
+                    id="12321343"
                     title="
                     WD 2TB Elements Portable External Hard Drive - USB 3.0 - WDBU6Y0020BBK"
                     price={52.76}
@@ -34,7 +34,7 @@ function Home() {
                     alt="slika"
                 />
                 <Product
-                    id="12321341"
+                    id="12321344"
                     title="Sceptre E248W-19203R 24 Ultra Thin 75Hz 1080p LED"
                     price={104.68}
                     rating={4}
@@ -42,7 +42,7 @@ function Home() {
                     alt="slika"
                 />
                 <Product
-                    id="12321341"
+                    id="12321345"
                     title="
                     RESPAWN Fortnite SKULL TROOPER-V"
                     price={250.25}
@@ -53,7 +53,7 @@ function Home() {
             </div>
             <div className="home__row">
                 <Product
-                    id="12321341"
+                    id="12321346"
                     title="Samsung CJ890 Series 49 inch 3840x1080 Super Ultra-Wide Desktop Monitor for Business, 144 Hz"
                     price={999.99}
                     rating={5}
